@@ -29,6 +29,13 @@ main {
         margin-top: 50px;
 
         color: #dddddd;
+
+        @media screen and (max-width: 768px) {
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;                
+
+        }
         
         ul {
             display: flex;
@@ -40,6 +47,10 @@ main {
             padding: 25px;
 
             background-color: #2A282A;
+
+            @media screen and (max-width: 768px) {
+                width: 90%;
+            }
 
             li {
                 display: flex;

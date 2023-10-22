@@ -25,6 +25,13 @@ main div {
   margin-top: 50px;
   color: #dddddd;
 }
+@media screen and (max-width: 768px) {
+  main div {
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 main div ul {
   display: flex;
   flex-direction: column;
@@ -33,6 +40,11 @@ main div ul {
   width: 20%;
   padding: 25px;
   background-color: #2A282A;
+}
+@media screen and (max-width: 768px) {
+  main div ul {
+    width: 90%;
+  }
 }
 main div ul li {
   display: flex;
